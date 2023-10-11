@@ -2,52 +2,74 @@
 
 <head>
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
-    <title>Mi Portafolio Abigail Roque Miranda</title>
+    <script src="script.js" defer></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <title>Abigail Roque Miranda</title>
+
+    <meta name="Description" content="A short Web Page about Abigail Roque Miranda on the Internet">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta property="og:title" content="A short Web Page about Abigail Roque Miranda on the Internet">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="A short Web Page about Abigail Roque Miranda on the Internet">
+    <meta property="og:image" content="abi.jpg">
 
 </head>
 
 <body>
 
     <!-- Header -->
+
     <header>
         <nav id="header-item">
             <ul id="ul-item">
-                <li id="li-item"><a id="a-item" href="#acerca-de">Acerca de</a></li>
+                <li id="li-item"><a id="a-item" href="#acerca-de">Acerca de mí</a></li>
                 <li id="li-item"><a id="a-item" href="#experiencia">Experiencia</a></li>
                 <li id="li-item"><a id="a-item" href="#proyectos">Proyectos</a></li>
             </ul>
         </nav>
     </header>
 
+    <!-- Hero -->
+
     <main id="hero">
+
+        <!-- particles.js container -->
+
+        <div id="particles-js"></div> <!-- stats - count particles -->
+
+        <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+        <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib -->
+        <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
 
         <div class="capa"></div>
         <div class="contenido">
+            <p> 👋 Hola, soy </p>
             <img src="tecnosocial/abi.jpg">
-            <h1> Abigail Roque Miranda </h1>
-            <h2>Web developer junior</h2>
-            <p>Desarrollando experiencias tecnosociales</p>
+
+            <h1>Abigail Roque Miranda</h1>
+            <h2>Front end Developer</h2>
+            <h3>Desarrollando experiencias tecnosociales</h3>
 
         </div>
     </main>
 
     <!-- Sección 1-->
+
     <section id="acerca-de">
         <h2>Acerca de mí</h2>
-        <p>¡Bienvenido a mi portafolio! Soy Abigail, una desarrolladora web junior apasionada por la tecnología, lo
-            urbano y las ciencias sociales.</p>
+        <p>¡Bienvenido a mi portafolio! Soy Abigail, planificadora urbana/territorial, apasionada por las
+            redes, la tecnología y lo urbano.</p>
         <p>Me interesa contribuir en el desarrollo de tecnologías sociales para el bien común y la construcción de
-            ciudades inteligentes, a través de la acción, innovación y colaboración.</p>
+            ciudades inteligentes y solidarias a través de la acción, innovación y colaboración.</p>
 
-        <p>En relación a mí formación acádemica, cuento con: <br> Un Técnico Superior en Cartografía, SIG y Catastro y
-            una Licenciatura en Planificación del Territorio y Medio Ambiente en la Universidad Mayor de San Simón.
-            <br> Y un Diplomado en Docencia para la Educación Superior basada en Competencias <br> Escuela Universitaria
-            de Posgrado y Gestión.
+        <p> Trabajo en proyectos de intervención urbana y digital, en temas de movilidad ciclista, agua, prácticas y
+            fragmentación urbana, entre otros. <br> Me interesa temas de gobierno abierto, gestión del suelo y de
+            cuencas.
         </p>
 
-        <p>Algunas experiencias en técnología aplicada a mí área son:</p>
+        <p>Algunas experiencias en tecnología aplicada a mí área son:</p>
 
         <div class="container">
 
@@ -56,25 +78,31 @@
                     <ul class="rb">
                         <li class="rb-item" ng-repeat="itembx">
                             <div class="timestamp">
-                                2018<br>
+                                2018 - Actualidad<br>
                             </div>
-                            <div class="item-title">Diplomado <br> Escuela </div>
+                            <div class="item-title">Datos y artículos<br> <a
+                                    href="https://labtecnosocial.org/author/abigail/" target="_blank"
+                                    rel="noopener">Análisis de datos e investigación.</a> </div>
 
                         </li>
                         <li class="rb-item" ng-repeat="itembx">
                             <div class="timestamp">
-                                2017<br>
+                                2020 - Actualidad <br>
                             </div>
-                            <div class="item-title">Licenciatura <br>
-                                Universidad </div>
+                            <div class="item-title">Proyecto Smart Cities<br><a href="https://bicidatos.org/"
+                                    target="_blank" rel="noopener">Coordinación General BiciDatos.</a> </div>
 
                         </li>
 
                         <li class="rb-item" ng-repeat="itembx">
                             <div class="timestamp">
-                                2014<br>
+                                2017 - 2018<br>
                             </div>
-                            <div class="item-title">Técnico <br> Universidad </div>
+                            <div class="item-title">SIG y catastro urbano <a
+                                    href="https://www.linkedin.com/in/abi-roque-m/details/experience/" target="_blank"
+                                    rel="noopener"><br>Levantamiento y supervisión catastral
+                                    Sacaba y Cochabamba.</a>
+                            </div>
 
                         </li>
 
@@ -87,12 +115,19 @@
     </section>
 
     <!-- Sección 2-->
+
     <section id="codigo">
-        <h3>programando <...> colaborando {...} innovando (...)</h3>
+
+        <span class="main-home__level" data-wait="3000"
+            data-words='["Programando <...>","Colaborando {...}","Innovando (...)"]'></span>
+
         <div id="cat">
             <img src="tecnosocial/cat.png"></a>
+        </div>
+
 
     </section>
+
     <!-- Sección 3-->
 
     <section id="experiencia">
@@ -109,14 +144,18 @@
                             <div class="timestamp">
                                 2023<br>
                             </div>
-                            <div class="item-title">Inmigrando a Bolivia</div>
+                            <div class="item-title"> <a href="https://labtecnosocial.org/articulo-inmigracion/"
+                                    target="_blank" rel="noopener">Inmigrando a Bolivia</a><br>Storytelling en código.
+                            </div>
 
                         </li>
                         <li class="rb-item" ng-repeat="itembx">
                             <div class="timestamp">
                                 2023<br>
                             </div>
-                            <div class="item-title">Práctica 1: Introducción HTML y CSS</div>
+                            <div class="item-title"> <a href="https://github.com/Abisan23/practica-html" target="_blank"
+                                    rel="noopener">Práctica 1: Introducción HTML y CSS</a><br> Aplicación de estructura
+                                y estilo básico.</div>
 
                         </li>
 
@@ -124,7 +163,10 @@
                             <div class="timestamp">
                                 2023<br>
                             </div>
-                            <div class="item-title">Introducción a Java Script</div>
+                            <div class="item-title"><a href="https://github.com/Abisan23/interaccion-css"
+                                    target="_blank" rel="noopener"> Práctica 2: Interacción CSS</a><br> Aplicación de
+                                estilo
+                                interactivo.</div>
 
                         </li>
 
@@ -138,10 +180,10 @@
 
     <!-- Sección 4-->
 
-    <section id="codigo">
-        <p>Lenguajes de programación que estoy aprendiendo:</p>
+    <section id="lenguaje">
+        <h3>Lenguajes que manejo:</h3>
 
-        <div id="lenguaje"">
+        <div id="lenguaje-grid"">
             <img src=" tecnosocial/html.png"></a>
             <img src="tecnosocial/css.png"></a>
             <img src="tecnosocial/js.png"></a>
@@ -150,6 +192,7 @@
 
 
     <!-- Sección 5-->
+
     <section id="proyectos">
         <h2>Proyectos tecnosociales </h2>
         <p>Colaboro contribuyendo en la construcción de un mejor futuro urbano a través de la innovación y la
@@ -168,8 +211,8 @@
     </section>
 
 
-
     <!-- Footer-->
+
     <footer>
         <h1 id="textmov"> ¡Proyectos tecnosociales para el bien común!</h1>
 
@@ -182,7 +225,19 @@
             </li>
             <li><a href="https://twitter.com/QualiaRouge" target="_blank"><i class="fab fa-twitter"></i></a></li>
         </ul>
+
+
     </footer>
+
+    <!-- #region - top button -->
+
+
+    <a href="#hero">
+        <div class="top-button">
+            <i class="fa-solid fa-angle-up"></i>
+        </div>
+    </a>
+
 
 </body>
 
