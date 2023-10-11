@@ -410,7 +410,10 @@ top-button {
         padding: 20px;
     }
 
+}
 
-
-
+@media (min-width: 960px) {
+    ul.rb {
+        width: 500px;
+    }
 }
